@@ -1,0 +1,9 @@
+#cars {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: auto;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+
+}

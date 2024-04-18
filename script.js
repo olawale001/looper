@@ -55,15 +55,60 @@
 // }
 // document.getElementById('display').innerHTML = num;
 
-
+//table 1
 let numb = document.getElementById('display')
 let num = "";
-let number = 12;
+let number = 1;
 for(let i = 1; i < 13; i++) {
     let result = number * i
     num  +=`${number} * ${i} = ${result}  <br>`;
 }
 numb.innerHTML = num
+
+//Table 2
+let numb1 = document.getElementById('display1')
+let nump = "";
+let numbers = 2;
+for(let i = 1; i < 13; i++) {
+    let result = numbers * i
+    nump  +=`${numbers} * ${i} = ${result}  <br>`;
+}
+numb1.innerHTML = nump
+
+//Table3
+
+let numb2 = document.getElementById('display2')
+let numi = "";
+let numbery = 3;
+for(let i = 1; i < 13; i++) {
+    let result = numbery * i
+    numi  +=`${numbery} * ${i} = ${result}  <br>`;
+}
+numb2.innerHTML = numi
+
+
+//Table4
+
+let numb3 = document.getElementById('display3')
+let nume = "";
+let numberl = 4;
+for(let i = 1; i < 13; i++) {
+    let result = numberl * i
+    nume  +=`${numberl} * ${i} = ${result}  <br>`;
+}
+numb3.innerHTML = nume
+
+//Table5
+
+let numb4 = document.getElementById('display4')
+let numo = "";
+let numberi = 5;
+for(let i = 1; i < 13; i++) {
+    let result = numberi * i
+    numo  +=`${numberi} * ${i} = ${result}  <br>`;
+}
+numb4.innerHTML = numo
+
 
 // for(let b= 0; b< 200; b++) {
 //     if(b% 2 == 0)
